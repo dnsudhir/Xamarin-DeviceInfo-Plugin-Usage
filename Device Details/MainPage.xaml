@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Device_Details.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    >
+
+    <StackLayout Padding="20">
+        <TableView>
+            <TableRoot>
+                <TableSection>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Label Text="ID" />
+                            </StackLayout>
+                            <StackLayout HorizontalOptions="End">
+                                <Label Text="{Binding Id}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Label Text="Model" />
+                            </StackLayout>
+                            <StackLayout HorizontalOptions="End">
+                                <Label Text="{Binding Model}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Label Text="Manufacturer" />
+                            </StackLayout>
+                            <StackLayout HorizontalOptions="End">
+                                <Label Text="{Binding Manufacturer}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Label Text="Device Name" />
+                            </StackLayout>
+                            <StackLayout HorizontalOptions="End">
+                                <Label Text="{Binding DeviceName}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Label Text="Version" />
+                            </StackLayout>
+                            <StackLayout HorizontalOptions="End">
+                                <Label Text="{Binding Version}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Label Text="Version Number" />
+                            </StackLayout>
+                            <StackLayout HorizontalOptions="End">
+                                <Label Text="{Binding VersionNumber}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Label Text="App Version" />
+                            </StackLayout>
+                            <StackLayout HorizontalOptions="End">
+                                <Label Text="{Binding AppVersion}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Label Text="App Build" />
+                            </StackLayout>
+                            <StackLayout HorizontalOptions="End">
+                                <Label Text="{Binding AppBuild}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Label Text="Platform" />
+                            </StackLayout>
+                            <StackLayout HorizontalOptions="End">
+                                <Label Text="{Binding Platform}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Label Text="Idiom" />
+                            </StackLayout>
+                            <StackLayout HorizontalOptions="End">
+                                <Label Text="{Binding Idiom}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Label Text="Is Device" />
+                            </StackLayout>
+                            <StackLayout HorizontalOptions="End">
+                                <Label Text="{Binding IsDevice}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+
+    </StackLayout>
+
+</ContentPage>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
